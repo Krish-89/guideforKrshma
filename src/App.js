@@ -1,4 +1,5 @@
 import './categories.styles.scss';
+import CategoryItemComponent from './components/category-item/CategoryItem';
 
 // install sass
 // npm i sass --save-dev
@@ -43,7 +44,7 @@ const App = () => {
 
   return (
     <>
-      {/* yha karo us component ko render */}
+      {<CategoryItemComponent categories={categories}/>}
     </>
   );
 };
